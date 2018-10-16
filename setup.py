@@ -5,7 +5,7 @@ setup(
     version='0.1',
     author='Eloy Félix',
     author_email='eloyfelix@gmail.com',
-    description='Laplace correcte modified naïve bayes model',
+    description='Laplace corrected modified naïve bayes model',
     url='https://github.com/chembl/ModifiedNB/',
     license='MIT',
     packages=[

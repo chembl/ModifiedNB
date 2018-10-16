@@ -6,7 +6,7 @@ from scipy.sparse import issparse
 import numpy as np
 
 
-class PLPNB(BaseDiscreteNB):
+class ModifiedNB(BaseDiscreteNB):
     """
     References
     ----------
