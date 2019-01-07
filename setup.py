@@ -11,7 +11,7 @@ setup(
     packages=[
         'ModifiedNB',
         ],
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     install_requires=[
         'scikit-learn>=0.19.0',
     ],
@@ -19,6 +19,7 @@ setup(
     classifiers=['License :: OSI Approved :: MIT License',
                  'Programming Language :: Python :: 3.5',
                  'Programming Language :: Python :: 3.6',
+                 'Programming Language :: Python :: 3.7',
                  'Topic :: Scientific/Engineering :: Chemistry'],
     zip_safe=False,
 )

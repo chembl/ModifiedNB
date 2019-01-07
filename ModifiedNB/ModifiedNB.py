@@ -10,7 +10,7 @@ class ModifiedNB(BaseDiscreteNB):
     """
     References
     ----------
-    Xiaoyang Xia, Edward G. Maliski, Paul Gallant and David Rogers (2003)
+    Xiaoyang Xia, Edward G. Maliski, Paul Gallant and David Rogers (2004)
     Classification of Kinase Inhibitors Using a Bayesian Model. 
     J. Med. Chem. 2004, 47, 4463 - 4470
     ----------
