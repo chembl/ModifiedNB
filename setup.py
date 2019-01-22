@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='ModifiedNB',
-    version='0.1',
+    version='0.2',
     author='Eloy Félix',
     author_email='eloyfelix@gmail.com',
     description='Laplace corrected modified naïve bayes model',
