@@ -23,5 +23,6 @@ y = np.array([1, 2, 3, 4, 5, 6])
 from ModifiedNB import ModifiedNB
 clf = ModifiedNB()
 clf.fit(X, y)
-print(clf.predict(X[2:3]))
+# generate KNIME/PP like scores
+clf._joint_log_likelihood(X)[:,1]
 ```
